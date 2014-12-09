@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset=utf-8" />
+        <title>{% block title %}Booker{% endblock %}</title>
+        {% block stylesheets %}
+            <link href="{{ asset('bundles/bookerbook/css/main.css') }}" rel="stylesheet" type="text/css" />
+            <link href="{{ asset('bundles/bookerbook/css/datepicker/jquery-ui.css') }}" rel="stylesheet" type="text/css" />
+            <link href="{{ asset('bundles/bookerbook/css/datepicker/jquery-ui.structure.css') }}" rel="stylesheet" type="text/css" />
+            <link href="{{ asset('bundles/bookerbook/css/datepicker/jquery-ui.theme.css') }}" rel="stylesheet" type="text/css" />
+        {% endblock %}
+
+        <script type="text/javascript" src="{{ asset('bundles/bookerbook/js/jquery-1.7.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/bookerbook/js/main.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/bookerbook/js/datepicker/jquery-ui.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/bookerbook/js/noty/packaged/jquery.noty.packaged.min.js') }}"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Simple booker app</h1>
+            {% block date_select %}
+            {%endblock%}
+
+            {% block booking_table %}
+            {%endblock%}
+
+            {% block login_info %}
+            {%endblock%}
+        </div>
+    </body>
+</html>

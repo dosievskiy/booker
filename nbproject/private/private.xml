@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/NativeSql.php</file>
+            <file>file:/var/www/booker/composer.json</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/config/routing.yml</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/CurrentBookingList.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/public/js/noty/layouts/topCenter.js</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/Booking.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/public/js/main.js</file>
+            <file>file:/var/www/booker/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/Rooms.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/Repository/RoomsRepository.php</file>
+            <file>file:/var/www/booker/app/AppKernel.php</file>
+            <file>file:/var/www/booker/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/public/css/login.css</file>
+            <file>file:/var/www/booker/app/Resources/FOSUserBundle/views/Security/login.html.twig</file>
+            <file>file:/var/www/booker/app/config/parameters.yml</file>
+            <file>file:/var/www/booker/app/config/config.yml</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/public/js/noty/layouts/center.js</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Hydrators/CustomHydrator.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/views/Default/test.html.twig</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/User.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/Repository/UserRepository.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/views/layout.html.twig</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/public/css/main.css</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/Repository/BookingRepository.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Entity/Constants/ErrorMessages.php</file>
+            <file>file:/var/www/booker/src/Booker/BookBundle/Resources/views/base.html.twig</file>
+        </group>
+    </open-files>
+</project-private>

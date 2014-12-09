@@ -1,0 +1,42 @@
+{% extends 'BookerBookBundle::layout.html.twig' %}
+
+{% set period_count = (time_max - time_min + 1)/time_period %}
+
+{%if current_user is not null%}
+    {%set current_user_id = current_user.id%}
+{%else%}
+    {%set current_user_id = null %}
+{%endif%}
+
+{% block date_select %}
+    <input id="datepicker" type="text" />
+{%endblock%}
+
+{% block booking_table %}
+    <p></p>
+    <div id="booking">
+        <table id="booking_table" class="table-style-three">
+            <tbody>
+                <thead>
+                    <tr>
+                        <td id="booking_left_column">
+                            Room
+                        </td>
+                        {% for period_number in 1..period_count %}
+                            {% set time_start = time_min + period_number*time_period - time_period %}
+                            {% set time_end = time_min + period_number*time_period %}
+                            <th>{{time_start}}:00 - {{time_end}}:00</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tfoot>
+                    {#  generated in main.js by function 'renderBookingTable'  #}
+                </tfoot>
+            </tbody>
+        </table>   
+    </div>
+    
+    <script type="text/javascript">
+        renderBookingTable({{booking|json_encode()|raw}}, {{rooms|json_encode()|raw}}, '{{current_user_id}}', {{constants|json_encode()|raw}});
+    </script>
+{% endblock %} 

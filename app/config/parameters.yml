@@ -1,0 +1,26 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: booker
+    database_user: root
+    database_password: temp123
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true
+    booking_time_min: 8
+    booking_time_max: 19
+    booking_time_period: 1
+
+twig:
+    globals:
+        time_min: %booking_time_min%
+        time_max: %booking_time_max%
+        time_period: %booking_time_period%

@@ -1,0 +1,22 @@
+BookerBookBundle_homepage:
+    path:     /
+    defaults: { _controller: BookerBookBundle:Default:index }
+    
+
+BookerBookBundle_delete_booking:
+    path:     /delete
+    defaults: { _controller: BookerBookBundle:Default:deleteBooking }
+    requirements:
+        _method:  POST
+
+BookerBookBundle_add_booking:
+    path:     /add
+    defaults: { _controller: BookerBookBundle:Default:addBooking }
+    requirements:
+        _method:  POST
+        
+BookerBookBundle_select_booking:
+    path:     /select
+    defaults: { _controller: BookerBookBundle:Default:selectBooking }
+    requirements:
+        _method:  POST

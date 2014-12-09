@@ -1,0 +1,68 @@
+h1 {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+#container {
+    margin: auto; 
+    width: 1220px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#booking .empty_row:hover {
+    background-color: #4bb1e4;
+}
+
+#booking table {
+    border: 1px solid black;
+}
+
+#booking td, #booking th {
+    padding: 7px 5px;
+    background-color: #0f75a8;
+}
+
+#booking th {
+    color: white;
+    font-weight: normal;
+    width:80px;
+}
+   
+#login {
+    text-align: right;
+}
+
+#datepicker {
+    width:150px;
+    padding-right:30px;
+    border:1px solid #ccc;
+    font-family:'Open Sans',sans-serif;
+    font-size:95%;
+    color:#555;
+    background-image: url('../images/calendar.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
+    background-size: contain;
+}
+
+#booking_left_column {
+    width:100px
+}
+
+#booking .left_column {
+    font-weight: normal;
+}
+
+#noty_center_layout_container {
+    top: 116px!important;
+}
+
+.by_current_user {
+    color: lightcyan;
+}
+
+.by_another_user {
+    color: black;
+    font-weight: lighter;
+}

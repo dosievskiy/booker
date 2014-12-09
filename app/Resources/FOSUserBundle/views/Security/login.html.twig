@@ -1,0 +1,22 @@
+{# empty Twig template #}
+{% block stylesheets %}
+    <link href="{{ asset('bundles/bookerbook/css/login.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block fos_user_content %}
+
+
+<div id="login">
+    <form action="{{ path("fos_user_security_check") }}" method="post">
+        <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+        {% if error %}
+            <div id="error">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+        {% endif %}
+        <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" placeholder="Username" />
+        <input type="password" id="password" name="_password" required="required" placeholder="Password" />
+        <input type="submit" id="_submit" name="_submit" value="Log In" />
+    </form>
+    <a href="{{path("fos_user_registration_register")}}" id="register">register</a>
+</div>
+
+{% endblock fos_user_content %}
